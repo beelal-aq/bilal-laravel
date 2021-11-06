@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('container')
-<h1>SHOW MAHASISWA</h1>
+<h1>SHOW Jadwal</h1>
 NAMA MAHASISWA        : <h5>{{$model->mahasiswa}}</h5>
 NIM  DOSEN            :<h5>{{$model->dosen}}</h5>
 JUDUL                 :<h5>{{$model->judul}}</h5>
